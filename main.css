@@ -1,0 +1,542 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+:root{
+    --text-color: rgba(255,255,255,.8);
+    --bg-color: rgba(0,0,0,.8);
+    --text-heading: #0071E3;
+    --text-heading11:#1d1d1f;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: var(--text-heading11);
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 65%;
+    margin: auto;
+}
+
+#sub-nav ol {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+
+#main{
+    border: 2px solid;
+    height: 720px;
+    background-image: url("./assests/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#main h2{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07143;
+    color: #fff;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+}
+
+#main h3{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+#link1{
+    color: #2997ff;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.381;
+}
+
+#link1:hover{
+    text-decoration: underline;
+}
+
+#link2{
+    color: #2997ff;
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.381;
+}
+
+#link2:hover{
+    text-decoration: underline;
+}
+
+#sub-main{
+    height: 620px;
+    background-image: url("./assests/bg_img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#sub-main h2{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07143;
+    color: #000;
+    position: absolute;
+    top: 115%;
+    left: 42%;
+    
+}
+
+#sub-main h3{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    color: #000;
+    position: absolute;
+    top: 125%;
+    left: 35%;
+}
+
+#link3{
+    color: #2997ff;
+    position: absolute;
+    top: 132%;
+    left: 42%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.381;
+}
+
+#link3:hover{
+    text-decoration: underline;
+}
+
+#link4{
+    color: #2997ff;
+    position: absolute;
+    top: 132%;
+    left: 53%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.381;
+}
+
+#link4:hover{
+    text-decoration: underline;
+}
+
+#open1{
+    font-size: 100px;
+    color: #0071E3
+}
+
+#left{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 1620px;
+   
+}
+
+#left h4{
+    background-image: url("./assests/aside_left.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200%;
+    left: 20%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+#left span{
+    position: absolute;
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+#left h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    position: absolute;
+    top: 209%;
+    left: 18%;
+}
+
+#link5{
+    position: absolute;
+    top: 215%;
+    left: 19%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link5:hover{
+    text-decoration: underline;
+}
+
+#link6{
+    position: absolute;
+    top: 215%;
+    left: 27%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link6:hover{
+    text-decoration: underline;
+}
+
+#aside1{
+    background-image: url("./assests/aside_left1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1262px;
+    height: 580px;
+    position: absolute;
+    padding: 0;
+    top: 188%;
+    right: 33%;
+    z-index: -1;
+}
+
+#head h4{
+    background-image: none;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 270%;
+    left: 23%;
+}
+
+#head h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    position: absolute;
+    top: 278%;
+    left: 18%;
+}
+
+#link7{
+    position: absolute;
+    top: 283%;
+    left: 21%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link7:hover{
+    text-decoration: underline;
+}
+
+#link8{
+    position: absolute;
+    top: 283%;
+    left: 29%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link8:hover{
+    text-decoration: underline;
+}
+
+#aside2{
+    background-image: url("./assests/aside_left2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1262px;
+    height: 580px;
+    position: absolute;
+    padding: 0;
+    top: 265%;
+    right: 33%;
+    z-index: -1;
+}
+
+#head1 h4{
+    background-image: none;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 350%;
+    left: 17%;
+    width: 88%;
+}
+
+#link9{
+    position: absolute;
+    top: 358%;
+    left: 20%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link9:hover{
+    text-decoration: underline;
+}
+
+#link10{
+    position: absolute;
+    top: 358%;
+    left: 28%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link10:hover{
+    text-decoration: underline;
+}
+
+#aside3{
+    background-image: url("./assests/aside_left3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1262px;
+    height: 580px;
+    position: absolute;
+    padding: 0;
+    top: 348%;
+    right: 33%;
+    z-index: -1;
+}
+
+#right{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 195.1%;
+    margin-left: 51%;
+    width: 49%;
+   
+    height: 1620px;
+   
+}
+
+#right h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 2%;
+    right: 30%;
+
+    
+}
+
+#right h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    position: absolute;
+    top: 5%;
+    right: 29%;
+}
+
+#link11{
+    position: absolute;
+    top: 7.5%;
+    right:46%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link11:hover{
+    text-decoration: underline;
+}
+
+#link12{
+    position: absolute;
+    top: 7.5%;
+    right: 38%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link12:hover{
+    text-decoration: underline;
+}
+
+#aside4{
+    background-image: url("./assests/aside_right1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 741.6px;
+    height: 580px;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    display: block;
+    right: 0%;
+    
+}
+
+#head2 h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 35.7%;
+    right: 30%;
+    color: #fff;
+    
+}
+
+#head2 h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    position: absolute;
+    top: 39%;
+    right: 26%;
+    color: #fff;
+    
+}
+
+#link13{
+    position: absolute;
+    top: 42%;
+    right:44%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link13:hover{
+    text-decoration: underline;
+}
+
+#link14{
+    position: absolute;
+    top: 42%;
+    right: 36%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link14:hover{
+    text-decoration: underline;
+}
+
+#aside5{
+    background-image: url("./assests/aside_right2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 741.6px;
+    height: 580px;
+    position: absolute;
+    top: 33%;
+    z-index: -1;
+    display: block;
+    right: 0%;
+    
+}
+
+#head3 h4{
+    background-image: url("./assests/aside_right.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 69%;
+    left: 40%;
+    width: 155px;
+    height: 150px;
+    
+}
+
+#head3 span{
+    position: absolute;
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+#head3 h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    position: absolute;
+    top: 72%;
+    left: 30%;
+    width: 88%;
+}
+
+#link15{
+    position: absolute;
+    top: 74.5%;
+    right:50%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link15:hover{
+    text-decoration: underline;
+}
+
+#link16{
+    position: absolute;
+    top: 74.5%;
+    right: 40%;
+    text-decoration: none;
+    color: #06c;
+}
+
+#link16:hover{
+    text-decoration: underline;
+}
+
+#aside6{
+    background-image: url("./assests/aside_right3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 741.6px;
+    height: 580px;
+    position: absolute;
+    top: 64%;
+    z-index: -1;
+    display: block;
+    right: 0%;
+    
+}
